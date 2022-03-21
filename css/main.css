@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #fff;
-  min-height: 100%;
+  min-height: 50%
 }
 
 *, *::before, *::after {
