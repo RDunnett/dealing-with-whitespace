@@ -1,7 +1,9 @@
 html {
-  box-sizing: border-box;
-  background-color: #fff;
-  min-height: 25%;
+box-sizing: border-box;
+border: 2px;
+padding-left: 1rem;
+padding-right: 1rem;
+margin: 1.5rem 13rem;
 }
 
 *, *::before, *::after {
@@ -33,12 +35,16 @@ article h1 {
   padding-bottom: 0;
 }
 
- header p {
+article header p {
   font-style: italic;
   padding-top: 0;
   padding-bottom: 1.25em;
   border-bottom: .8px solid #999;
   margin-top: 0;
+}
+
+article p {
+
 }
 
 blockquote {
