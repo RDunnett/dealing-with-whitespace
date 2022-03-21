@@ -31,7 +31,7 @@ article h1 {
   padding-bottom: 0;
 }
 
-header p {
+article header p {
   font-style: italic;
   padding-top: 0;
   padding-bottom: 1.25em;
@@ -48,8 +48,8 @@ blockquote {
   font-size: 1em;
 }
 
-article p {
-
+article:last-child {
+  border-bottom: .8px solid #999;
 }
 
 article ol {
